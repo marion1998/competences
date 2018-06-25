@@ -68,7 +68,7 @@ nav ul li a.connect {
     border-radius: 6px;
 }
 
-.img {
+section.sec1 {
     width: 100%;
     height: 105vh; 
     background: url(/home/zurcher/Images/media.jpeg);
@@ -88,4 +88,10 @@ nav ul li a.connect {
     text-align: justify;
     font-size: 20px;
     line-height: 30px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
 }
